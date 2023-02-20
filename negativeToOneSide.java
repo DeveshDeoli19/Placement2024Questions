@@ -6,7 +6,7 @@ public class negativeToOneSide{
 
         for(int i=0; i<n; i++){
 
-            if(arr[i] > 0){
+            if(arr[i] >= 0){
                 int temp = arr[count];
 
                 arr[count] = arr[i];
@@ -14,10 +14,11 @@ public class negativeToOneSide{
                 count++;
             }
         }
+        
     }
     public static void main(String[] args){
 
-        int[] a = {-1,2,3,-4,8,-5,6};
+       int[] a = { 5, 5,  -3, 4, -8, 0, -7, 3, -9, -3, 9, -2, 1 };
 
         shift(a, a.length);
 
