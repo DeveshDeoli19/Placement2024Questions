@@ -18,7 +18,7 @@ public class negativeToOneSide{
     }
     public static void main(String[] args){
 
-       int[] a = { 5, 5,  -3, 4, -8, 0, -7, 3, -9, -3, 9, -2, 1 };
+       int[] a = { 5, 5, 4, -8, 0, -7, 3, -9, -3, 9, -2, 1 };
 
         shift(a, a.length);
 
