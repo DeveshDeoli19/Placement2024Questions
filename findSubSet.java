@@ -30,7 +30,7 @@ class findSubSet{
     public static void main(String[] ar){
         int arr[] = {1,2,3,4,1,2};
         int temp[] = {1,1,1};
-       boolean f = isSubSet(arr,temp);
-        System.out.print(f);
+       boolean fi = isSubSet(arr,temp);
+        System.out.print(fi);
     }
 }
